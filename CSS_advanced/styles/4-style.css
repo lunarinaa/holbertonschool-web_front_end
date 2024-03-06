@@ -1,4 +1,4 @@
-:root{
+:root {
 	--color-primary: #d73953;
 	--color-black: #090909;
 	--color-white: #ffffff;
@@ -8,37 +8,30 @@
 	--font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 html {
 	scroll-behavior: smooth;
 }
-
 body {
 	color: var(--text-color);
 	font-family: var(--font-family-base);
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-family-title);
+}
 a {
 	color: var(--text-color);
 }
-
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6: {
-	font-family: var(--font-family-title);
-}
-
 .visually-hidden {
 	display: none;
 }
-
 .card-category {
 	color: var(--color-primary);
 }
-
 .section-tagline {
 	color: var(--color-primary);
 }

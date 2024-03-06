@@ -51,7 +51,8 @@ a {
 	color: var(--color-primary);
 }
 .section-header {
-	text-alighn: var(--section-header-align)
+	text-alighn: var(--section-header-align);
+}
 
 .section-tagline {
 	color: var(--color-primary);

@@ -71,7 +71,6 @@ template{display: none;} /* prettier-ignore */
 	--nav-item-margin: 0 0 3rem 0;
 	--nav-item-link-hover: var(--color-primary);
 	--section-tagline-margin: 0;
-	/* button properties */
 	--button-display: inline-block;
 	--button-padding: 1.5rem 3rem;
 	--button-border: 0.2rem solid var(--color-primary);
@@ -119,6 +118,19 @@ a:hover {
 }
 a:active {
 	background-color: var(--color-light-grey);
+}
+.button {
+	display: var(--button-display);
+	padding: var(--button-padding);
+	border: var(--button-border);
+	font-size: var(--button-font-size);
+	color: var(--button-color);
+	text-decoration: var(--button-text-decoration);
+}
+.button:hover {
+	color: var(--button-hover-color);
+	text-decoration: var(--button-hover-text-decoration);
+	background-color: var(--button-hover-background);
 }
 .visually-hidden {
 	display: none;
@@ -247,7 +259,7 @@ ul.row {
 .card-testimonial {
 	text-align: center;
 }
-.card-testimonial.card-avatar {
+.card-testimonial .card-avatar {
 	border-radius: 50%;
 	width: 10rem;
 	height: 10rem;
@@ -256,17 +268,4 @@ ul.row {
 	display: block;
 	padding-top: 1rem;
 	color: var(--color-primary);
-}
-.button {
-	display: var(--button-display);
-	padding: var(--button-padding);
-	border: var(--button-border);
-	font-size: var(--button-font-size);
-	color: var(--button-color);
-	text-decoration: var(--button-text-decoration);
-}
-.button:hover {
-	color: var(--button-hover-color);
-	text-decoration: var(--button-hover-text-decoration);
-	background: var(--button-hover-background);
 }

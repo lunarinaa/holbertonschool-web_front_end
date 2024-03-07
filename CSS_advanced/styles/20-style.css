@@ -184,10 +184,6 @@ ul.row {
 	list-style: none;
 }
 
-.row {
-	display: table;
-	clear:both;
-}
 .row:after {
 	content: "";
 	display: table;

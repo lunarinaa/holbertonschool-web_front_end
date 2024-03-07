@@ -248,7 +248,7 @@ ul.row {
 	text-align: center;
 }
 .card-testimonial.card-avatar {
-	radius-border: 50$;
+	border-radius: 50%;
 	width: 10rem;
 	height: 10rem;
 }

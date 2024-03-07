@@ -50,7 +50,6 @@ template{display: none;} /* prettier-ignore */
 	--font-size-xx-large: 4.8rem;
 	--font-weight-regular: 400;
 	--font-weight-bold: 700;
-	/* Line Height Variables */
 	--line-height-small: 1.2;
 	--line-height-base: 1.5;
 	--line-height-big: 1.8;
